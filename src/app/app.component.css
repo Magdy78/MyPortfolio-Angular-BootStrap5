@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,200;10..48,300;10..48,400;10..48,500;10..48,600;10..48,700;10..48,800&family=Ruwudu:wght@400;500;600;700&display=swap");
+
+* {
+  /* English Font */
+  font-family: "Bricolage Grotesque", sans-serif;
+
+  /* Arabic Font */
+  /* font-family: 'Ruwudu', serif; */
+}
+.jumbtron {
+  padding: 2rem;
+  background-color: #fedc00;
+  height: 20rem;
+}
+.jumbtron h2 {
+  margin-top: 4rem;
+}
+.carousel-inner {
+}
+.carousel-inner h1 {
+  color: black;
+  margin-left: 8%;
+  margin-top: 8%;
+  font-weight: 400;
+}
+.carousel-inner p {
+  color: black;
+  margin-left: 8%;
+  margin-top: 1%;
+  font-weight: 400;
+  font-size: 24px;
+}
+.skills {
+  height: 50rem;
+  background-color: #fedc00;
+}
+.Cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Portfolio {
+  padding: 2rem;
+  background-color: #fedc00;
+  height: 160rem;
+}
+.Portfolio .card {
+  position: relative;
+}
+.Portfolio .card-info {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
+  color: white;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 0.5s;
+  padding: 20px;
+}
+.Portfolio .card:hover .card-info {
+  opacity: 1;
+}
+.Portfolio .card-info h3,
+.Portfolio .card-info p {
+  margin-bottom: 0;
+}
+.span-or {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: -2px;
+    margin-left: -25px;
+    background-color: #fff;
+    width: 50px;
+    text-align: center;
+  }
+  .hr-or {
+    background-color: #cdcdcd;
+    height: 1px;
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+footer.nb-footer {
+background: #222;
+border-top: 4px solid #b78c33; }
+footer.nb-footer .about {
+margin: 0 auto;
+margin-top: 40px;
+max-width: 1170px;
+text-align: center; }
+footer.nb-footer .about p {
+font-size: 13px;
+color: #999;
+margin-top: 30px; }
+footer.nb-footer .about .social-media {
+margin-top: 15px; }
+footer.nb-footer .about .social-media ul li a {
+display: inline-block;
+width: 45px;
+height: 45px;
+line-height: 45px;
+border-radius: 50%;
+font-size: 16px;
+color: #b78c33;
+border: 1px solid rgba(255, 255, 255, 0.3); }
+footer.nb-footer .about .social-media ul li a:hover {
+background: #b78c33;
+color: #fff;
+border-color: #b78c33; }
+footer.nb-footer .footer-info-single {
+margin-top: 30px; }
+footer.nb-footer .footer-info-single .title {
+color: #aaa;
+text-transform: uppercase;
+font-size: 16px;
+border-left: 4px solid #b78c33;
+padding-left: 5px; }
+footer.nb-footer .footer-info-single ul li a {
+display: block;
+color: #aaa;
+padding: 2px 0; }
+footer.nb-footer .footer-info-single ul li a:hover {
+color: #b78c33; }
+footer.nb-footer .footer-info-single p {
+font-size: 13px;
+line-height: 20px;
+color: #aaa; }
+footer.nb-footer .copyright {
+margin-top: 15px;
+background: #111;
+padding: 7px 0;
+color: #999; }
+footer.nb-footer .copyright p {
+margin: 0;
+padding: 0; }
